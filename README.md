@@ -1,6 +1,6 @@
 # Document_Type_Classifier
 Used standard ML algorithms and NLP techniques to classify news articles belonging to the BBC dataset into one of the following categories - Business, Sports, Technology, Entertainment and Politics.
-The dataset comprises of 2225 articles, each labeled under one of 5 categories: business, entertainment, politics, sport or tech. The goal was to build a system that can accurately classify previously unseen news articles into the right category.
+The dataset comprises of 2225 articles, each labeled under one of 5 categories. The goal was to build a system that can accurately classify previously unseen news articles into the right category.
 
 The data-preprocessing steps comprised of -
 1) Removal of Stop Words - Words such as articles and some verbs in the English language are usually considered stop words as they do not contribute much to the meaning of a sentence. Used the stopwords list from NLTK's corpus.
